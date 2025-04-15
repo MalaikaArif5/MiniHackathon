@@ -1,0 +1,30 @@
+h2 *{
+  
+  color: pink; background-color: black ;
+}*
+
+/*body {background:yellow;}*/
+ 
+/* .mylist {
+color: pink;
+}*/
+/*h3.mylist {
+  color:green;
+}*/
+/* #mypara{
+  
+  color: red;
+}*/
+/* child selector*/
+ol>li , ol>h3 {
+  color: coral;
+}
+ol b { color: black}
+
+/* #sibling+p{
+  color: chocolate;
+} */
+
+#sibling~p{
+  color: darkcyan;
+}
